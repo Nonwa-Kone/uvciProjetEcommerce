@@ -1,0 +1,237 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .navbar{
+    height: 70px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  header p{
+    float: left;
+    margin-left: 50px;
+  }
+  .dropdownmenu {
+    display: flex;
+    margin: 20px 0 0;
+    justify-content: space-between;
+  }
+  .dropdownmenu ul {
+    display: none;
+  }
+  .dropdownmenu,
+  .dropdownmenu ul {
+    list-style-type: none;
+    padding: 0px;
+  }
+  .dropdownmenu a {
+    display: block;
+    width: 100px;
+    height: 35px;
+    line-height: 35px;
+    color: black;
+    text-decoration: none;
+    padding: 3px 20px;
+    text-align: center;
+  }
+  .dropdownmenu li {
+    position: relative;
+  }
+  .dropdownmenu li:hover ul {
+    display: block;
+    position: absolute;
+    top: 41px;
+    left: 0px;
+    z-index: 100;
+  }
+  .sous li{
+    background-color: #4ecd13;
+  }
+  .navbar input{
+    border-radius: 10px;
+    border: 1px solid black;
+    position: relative;
+    right: 50px;
+    height: 30px;
+    width: 250px;
+  }
+  .sous li:hover{
+    background-color: #4EB61E;
+  }
+  .menu{
+    background: url(image/fond.jpeg);
+    height: 300px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .menu{
+    background: url(image/fond.jpeg);
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+  }
+  .menu div{
+    float: right;
+    text-align: center;
+    position: relative;
+    top: 30%;
+    right: 25%;
+  }
+  .menu h1{
+    font-size: 40px;
+  }
+  
+  .hover:hover{
+    color: #4EB61E;
+  }
+.grand-div{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 3%;
+}
+.grand-div .div2{
+    height: 700px;
+    display: flex;
+    width: 75%;
+    justify-content: space-between;
+}
+.grand-div .div2 .div4{
+    float: right;
+    height: 350px;
+    width: 380px;
+    border: 2px solid gray;
+}
+.grand-div .div3{
+    height: 400px;
+    margin: 10px;
+    width: 75%;
+}
+
+.grand-div .div3 h3{
+    display: inline-block;
+    margin: 0 8%;
+}
+.grand-div .div3 div{
+    height: 200px;
+    width: 23.5%;
+    display: inline-block;
+    margin: 5px;
+}
+.grand-div .div3 .div5{
+    height: 160px;
+    width: 98%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.div{
+    height: 50px;
+    left: 40px;
+    top: 22px;
+    position: relative;
+    width: 70px;
+}
+.div span{
+    border: 1px solid black;
+    height: 50px;
+    padding: 15px;
+}
+.grand-div .div3 .div5 img{
+    height: 120px;
+    width: 120px;
+    float: left;
+    margin: 0 10px;
+}
+.grand-div .div3 .div5 .div6 p{
+    text-align: center;
+    margin: 10px 10px 0;
+    font-size: 18px;
+}
+.grand-div .div2 .div4 h1{
+    text-align: center;
+}
+.grand-div .div2 .div4 p span{
+    float: right;
+}
+.grand-div .div2 .div4 p{
+    margin: 20px;
+}
+.grand-div .div2 .div4 input{
+    height: 30px;
+    margin: 5px 5px 0 20px;
+    width: 230px;
+}
+.grand-div .div2 .div4 .btn1{
+    background-color: #FFF;
+    border: 1px solid black;
+    height: 35px;
+    width: 90px;
+}
+.grand-div .div2 .div4 .btn1:hover{
+    background-color: black;
+    color: #FFF;
+}
+.grand-div .div3 button{
+    height: 40px;
+    width: 200px;
+    margin: 0 20px;
+    background-color: #FFF;
+    border: 1px solid black;
+}
+.grand-div .div3 button:hover{
+    background-color: black;
+    color: #FFF;
+}
+.grand-div .div3 .btn2{
+    float: right;
+}
+
+
+
+
+
+  .foot-section{
+    color: #FFF;
+    height: 300px;
+    background-color: #4EB61E;
+    width: 100%;
+  }
+  .foot-section2{
+    display: flex;
+    justify-content: center;
+  }
+  .foot-section2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+  }
+  .foot-section2 div{
+    height: 200px;
+    width: 300px;
+    margin: 30px 100px;
+  }
+  .foot-section2 p{
+    margin-left: 15px;
+  }
+  .foot-section2 strong{
+    font-size: 18px;
+  }
+  footer{
+    background-color: black;
+    height: 100px;
+    color: #FFF;
+    display: flex;
+    justify-content: space-between;
+  }
+  footer div{
+    height: 50px;
+    width: 350px;
+    margin: 10px;
+  }
+  footer span i{
+    margin: 30px 10px;
+    font-size: 25px;
+  }

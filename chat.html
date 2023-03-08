@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/538942b924.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="chat.css" />
+  </head>
+  <body>
+    <div>
+      <header>
+        <p>
+          <strong><span style="color: #4ecd13">A</span>KAM</strong>
+        </p>
+        <div class="navbar">
+          <ul class="dropdownmenu">
+            <li><a href="index2.html" class="hover">Accueil</a></li>
+            <li>
+              <a href="boutique.html" style="color: #4eb61e" class="hover"
+                ><i class="fa-solid fa-shop"></i>Boutiques</a
+              >
+            </li>
+            <li>
+              <a href="#" class="hover"
+                ><i class="fa-solid fa-circle-question"></i>Aides</a
+              >
+              <ul class="sous">
+                <li><a href="aide1.html">Commande</a></li>
+                <li><a href="chat.html">Discussion</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="produit2.html" class="hover"
+                ><i class="fa-solid fa-cart-shopping"></i>Panier
+                <span id="nbrearticle"></span
+              ></a>
+            </li>
+            <li>
+              <a href="#" class="hover"
+                >Contacts<i class="fa-solid fa-user"></i
+              ></a>
+              <ul class="sous">
+                <li><a href="connexion.html">Se connecter</a></li>
+                <li><a href="inscription.html">S'inscrire</a></li>
+                <li><button id="destroy">Deconnexion</button></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#"><input type="search" placeholder="recherche" /></a>
+            </li>
+            <li>
+              <a href="#" class="hover"><i class="fa-solid fa-bars"></i>Plus</a>
+              <ul class="sous">
+                <li><a href="jusfruits.html">Jus de fruits</a></li>
+                <li><a href="fruits.html">Fruits</a></li>
+                <li><a href="poudre.html">Poudres</a></li>
+                <li><a href="yaourt.html">Yaourt</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </header>
+      <section class="menu">
+        <div>
+          <h1>Frais - Sain <br />- Bio</h1>
+        </div>
+      </section>
+      <div class="discussion">
+        <h1>DISCUTER EN DIRECT</h1>
+      </div>
+      <section class="section">
+        <div class="chat">
+          <div class="div">
+            <label for="name">NOM :</label><br /><input type="text" />
+          </div>
+          <div class="div">
+            <label for="name">PRENOM :</label><br /><input type="text" />
+          </div>
+        </div>
+
+        <div class="inpt">
+          <label for="text">EMAIL :</label><br />
+          <input type="text" name="" id="" /><br />
+          <label for="text">TELEPHONE :</label><br />
+          <input type="text" name="" id="" /><br />
+          <label for="text">NUMERO DE COMMANDE :</label><br />
+          <input type="text" name="" id="" /><br />
+          <label for="text">MESSAGE :</label><br />
+          <textarea name="" id="" cols="30" rows="10"></textarea>
+          <a href="index.html"><button>DEMARRER</button></a>
+        </div>
+      </section>
+
+      <section class="foot-section">
+        <div class="foot-section2">
+          <div>
+            <h1>Contactez-nous</h1>
+            <p><strong>Adresse : </strong>Côte d'Ivoire<br />Cocody-angre</p>
+            <p>
+              <strong>Telephone : </strong>+2250707070707<br />0022505050505
+            </p>
+            <p><strong>Email : </strong>AKAM.site@gmail.com</p>
+          </div>
+          <div>
+            <h1>Programmes</h1>
+            <p><strong>Ouverture : </strong> 07h00</p>
+            <p><strong>Fermerture : </strong> 21h00</p>
+            <p><strong>Jours : </strong>Lundi-Samedi</p>
+          </div>
+          <div>
+            <h1>Partenaires</h1>
+            <p><strong>JUMIA</strong></p>
+            <p><strong>GLOVO</strong></p>
+            <p><strong>SAMER</strong></p>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <div>
+          <p>Avec AKAM c'est le paradis des aliments <br />bio et sains</p>
+        </div>
+        <div>
+          <span
+            ><i class="fa-brands fa-facebook-f"></i
+            ><i class="fa-brands fa-google"></i
+            ><i class="fa-brands fa-instagram"></i
+            ><i class="fa-brands fa-twitter"></i
+          ></span>
+        </div>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+    <!-- <script src="script.js"></script> -->
+    <script src="js/panier.js"></script>
+    <script src="js/supprimerpanier.js"></script>
+    <script>
+      document.getElementById("nbrearticle").innerText = getPannier().length;
+    </script>
+  </body>
+</html>

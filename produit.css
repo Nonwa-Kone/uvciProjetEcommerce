@@ -1,0 +1,229 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .navbar{
+    height: 70px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  header p{
+    float: left;
+    margin-left: 50px;
+  }
+  .dropdownmenu {
+    display: flex;
+    margin: 20px 0 0;
+    justify-content: space-between;
+  }
+  .dropdownmenu ul {
+    display: none;
+  }
+  .dropdownmenu,
+  .dropdownmenu ul {
+    list-style-type: none;
+    padding: 0px;
+  }
+  .dropdownmenu a {
+    display: block;
+    width: 100px;
+    height: 35px;
+    line-height: 35px;
+    color: black;
+    text-decoration: none;
+    padding: 3px 20px;
+    text-align: center;
+  }
+  .dropdownmenu li {
+    position: relative;
+  }
+  .dropdownmenu li:hover ul {
+    display: block;
+    position: absolute;
+    top: 41px;
+    left: 0px;
+    z-index: 100;
+  }
+  .sous li{
+    background-color: #4ecd13;
+  }
+  .navbar input{
+    border-radius: 10px;
+    border: 1px solid black;
+    position: relative;
+    right: 50px;
+    height: 30px;
+    width: 250px;
+  }
+  .sous li:hover{
+    background-color: #4EB61E;
+  }
+  .menu{
+    background: url(image/fond.jpeg);
+    height: 300px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .menu{
+    background: url(image/fond.jpeg);
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+  }
+  .menu div{
+    float: right;
+    text-align: center;
+    position: relative;
+    top: 30%;
+    right: 25%;
+  }
+  .menu h1{
+    font-size: 40px;
+  }
+  
+  .hover:hover{
+    color: #4EB61E;
+  }
+.produit{
+    display: flex;
+    margin: 3%;
+}
+.section{
+    width: 80%;
+    height: 550px;
+    margin: 30px auto;
+}
+.produit div{
+    margin: 30px auto;
+    width: 80%;
+    color: rgba(0, 0, 0, 0.879);
+    height: 500px;
+    background-color: rgba(128, 128, 128, 0.192);
+}
+.produit img{
+    height: 500px;
+    width: 500px;
+    margin: 0 30px 0 0;
+    float: left;
+}
+.div{
+    height: 50px;
+    width: 70px;
+    cursor: pointer;
+}
+.div span{
+    border: 1px solid black;
+    height: 50px;
+    cursor: pointer;
+    padding: 15px;
+}
+.produit h1{
+    font-size: 30px;
+}
+.produit .span1 i{
+    font-size: 25px;
+}
+.btn1{
+    height: 50px;
+    width: 250px;
+    margin: 0 20px;
+    font-size: 17px;
+}
+.btn2{
+    height: 55px;
+    width: 450px;
+    margin: 20px 10px;
+    font-size: 18px;
+}
+.btn2 i{
+    margin: 5px;
+    font-size: 25px;
+}
+button{
+    border-radius: 2px;
+    border: none;
+    background-color: #4EB61E;
+    color: #FFF;
+}
+button:hover{
+    background-color: #FFF;
+    color: #4EB61E;
+    border: 1px solid #4EB61E;
+}
+.span2{
+    margin: 0 15px 0;
+    font-size: 25px;
+}
+.categorie h1{
+    text-align: center;
+}
+.categorie {
+    height: 550px;
+    width: 100%;
+}
+.categorie .categoris div{
+    margin: 50px auto;
+    width: 70%;
+    color: rgba(0, 0, 0, 0.879);
+    flex-wrap: wrap;
+    height: 280px;
+}
+.categorie .categoris{
+    margin: 10px auto;
+    width: 100%;
+    color: rgba(0, 0, 0, 0.879);
+    height: 400px;
+    padding: 10px;
+}
+.categorie .categoris img{
+    height: 250px;
+    width: 250px;
+}
+
+
+  .foot-section{
+    color: #FFF;
+    height: 300px;
+    background-color: #4EB61E;
+    width: 100%;
+  }
+  .foot-section2{
+    display: flex;
+    justify-content: center;
+  }
+  .foot-section2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+  }
+  .foot-section2 div{
+    height: 200px;
+    width: 300px;
+    margin: 30px 100px;
+  }
+  .foot-section2 p{
+    margin-left: 15px;
+  }
+  .foot-section2 strong{
+    font-size: 18px;
+  }
+  footer{
+    background-color: black;
+    height: 100px;
+    color: #FFF;
+    display: flex;
+    justify-content: space-between;
+  }
+  footer div{
+    height: 50px;
+    width: 350px;
+    margin: 10px;
+  }
+  footer span i{
+    margin: 30px 10px;
+    font-size: 25px;
+  }
